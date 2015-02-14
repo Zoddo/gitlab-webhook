@@ -1,0 +1,20 @@
+{
+  "name": "zoddo/gitlab-webhook",
+  "description": "A GitLab webhook",
+  "keywords": ["PHP", "GitLab", "webhook"],
+  "homepage": "https://github.com/Zoddo/gitlab-webhook",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "Zoddo",
+      "email": "zoddo.ino@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": { "Zoddo\\gitlab\\webhook\\": "" }
+  }
+}
