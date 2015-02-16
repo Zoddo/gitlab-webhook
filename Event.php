@@ -38,7 +38,7 @@ class Event
 	{
 		if (!is_array($json))
 		{
-			$json = json_decode($json);
+			$json = json_decode($json, true);
 		}
 
 		$this->json = $json;
