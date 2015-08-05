@@ -154,7 +154,7 @@ class Event
 			{
 				return EVENT::ISSUE;
 			}
-			elseif ($json['object_kind'] == 'merge_request' && $json['object_attributes']['state'] == 'merged')
+			elseif ($json['object_kind'] == 'merge_request' && $json['object_attributes']['action'] == 'merge')
 			{
 				return EVENT::MERGE;
 			}
